@@ -17,4 +17,4 @@ fi
 #copy post_start.sh to root
 cp post_start.sh /
 
-sudo reboot # does this work?
+echo "setup done.  restart the instance"
