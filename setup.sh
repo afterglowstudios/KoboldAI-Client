@@ -1,5 +1,5 @@
 apt update
-apt install nano screen sudo
+apt install -y nano screen sudo
 
 #enable git lfs
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
