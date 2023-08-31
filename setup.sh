@@ -10,7 +10,7 @@ git lfs install
 #get pygmalion
 if [ ! -d "/workspace/KoboldAI-Client/models/pygmalion-6b" ]; then
     echo "Directory does not exist"
-    git clone https://huggingface.co/PygmalionAI/pygmalion-6b /workspace/KoboldAI-Client/models
+    cd /workspace/KoboldAI-Client/models/ && git clone https://huggingface.co/PygmalionAI/pygmalion-6b
 fi
 
 #copy post_start.sh to root
